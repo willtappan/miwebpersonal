@@ -1,0 +1,29 @@
+
+{% extends 'core/base.html' %}
+{% block title %}Acerca {% endblock %}
+ 
+{% block background %}{% load static %}{% static 'core/img/Fondo_about.jpg' %}{% endblock %}
+
+{% block headers %} 
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+           
+{% block content %}
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">William Tappan </h2>   
+        <p>Hola Soy Ingeniero Mecatronio .</p>
+        <p>Egresdo del la Universidad del Valle de Mexico </p>
+        <p>Desarrollador de softaware y hardware </p>
+        <p>Prgamacion en C/C++, Python,  Java, Android, C#, Xamarin, Oracle Apex </p>
+        <p>Desarllador IoT, Arduino, Desarrollo en Raspberry, Programador de microcontroladores Microchip </p>
+        <p>ptocolos de comunicacion serial, i2c, spi, http, mqtt. </p>
+
+        
+
+    </div>
+{% endblock %} 
+
